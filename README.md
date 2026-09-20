@@ -4,7 +4,7 @@
 
 A reproducible pilot built from NIH-hosted PubChem assay measurements and NCBI reference sequences. It compares ligand-only, target-identity, and sequence baselines with a workflow for adding Boltz-2's exported protein representations.
 
-> **Current status:** the complete GPU workflow ran on one A100 (Frontenac job 12247627, 8m26s). All 12 proteins produced actual Boltz-2 embeddings, and the downstream regressor was trained and evaluated. Imported artifacts and local reproduction checks passed. **RDKit molecule-serialization warnings remain unresolved**; results are a provisional pilot, not a compatibility-certified benchmark. Boltz-2 itself was not fine-tuned.
+> **Current status:** the complete GPU workflow ran on one A100. All 12 proteins produced actual Boltz-2 embeddings, and the downstream regressor was trained and evaluated. Imported artifacts and local reproduction checks passed. **RDKit molecule-serialization warnings remain unresolved**; results are a provisional pilot, not a compatibility-certified benchmark. Boltz-2 itself was not fine-tuned.
 
 ![Boltz and baseline benchmark](results/boltz/benchmark.png)
 

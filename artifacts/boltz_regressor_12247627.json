@@ -1,0 +1,9 @@
+{
+  "method": "ligand_boltz",
+  "alpha": 1,
+  "training_pairs": 173,
+  "model_sha256": "07752bd83e4c288e7adeec9d5d1d88675ac019dcdc438feef209f309b5fc27a9",
+  "dataset_sha256": "6bf4747efbdafd663b20edd61681bf62e083be3d23dd71413c6cfabe0600f7e9",
+  "embeddings_sha256": "9276aa9f60dea06e7744c1c6a00d2d441f4d5ff62d1edef388435b295493beff",
+  "usage": "Final fit on all curated rows for demonstration; evaluate with separate out-of-fold reports, not training-set predictions."
+}

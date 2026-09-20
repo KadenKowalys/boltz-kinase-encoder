@@ -1,0 +1,20 @@
+{
+  "job_id": "12247627",
+  "status": "artifact_and_metric_checks_passed_with_unresolved_rdkit_warning",
+  "target_count": 12,
+  "embedding_shape": [
+    12,
+    768
+  ],
+  "max_reproduced_nonrank_metric_absolute_difference": 2.220446049250313e-15,
+  "max_reproduced_prediction_absolute_difference": 2.3092638912203256e-14,
+  "max_spearman_difference": 0.0008636076447636545,
+  "model_checksum_verified": true,
+  "input_hashes_verified": true,
+  "rdkit_version_warning_count": 42,
+  "limits": [
+    "RDKit 16.2-to-16.1 molecule serialization compatibility has not been tested in a matched-version rerun.",
+    "Finite coordinates, matching sequences and basic geometry do not certify experimental structure accuracy.",
+    "Raw per-residue embeddings and model checkpoint were not included in the downloaded archive; their recorded hashes were not independently recomputed."
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "retrieved_utc": "2026-09-20T18:21:35.260809+00:00",
+  "files": {
+    "assay_1433.csv": {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1433/CSV",
+      "sha256": "607def007caa5c748afdb181ed914ac65fae87c128c59447eb9febc0a4546a2f",
+      "bytes": 446757
+    },
+    "assay_1433.json": {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1433/description/JSON",
+      "sha256": "bde289fa25b4b7732eee85731742ff727bb65759f6933b0ca4def883daf938e5",
+      "bytes": 2259
+    },
+    "sequences.fasta": {
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=NP_003591.2,AAH00442.3,AAC77369.1,NP_001789.2,NP_001790.1,NP_002084.2,NP_005408.1,NP_005347.3,NP_002101.2,NP_002022.1,NP_620693.1,NP_001885.1&rettype=fasta&retmode=text",
+      "sha256": "75ef793ff19e588d14ec80e13f85e220055f25b5de50d8a67408a9f15493f840",
+      "bytes": 5824
+    }
+  }
+}

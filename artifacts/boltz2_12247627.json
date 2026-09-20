@@ -1,0 +1,92 @@
+{
+  "status": "actual_boltz_output",
+  "boltz_commit": "b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc",
+  "feature_schema": "boltz2_s_mean_std_v1",
+  "embedding_sha256": "9276aa9f60dea06e7744c1c6a00d2d441f4d5ff62d1edef388435b295493beff",
+  "run_provenance": {
+    "status": "completed",
+    "started_utc": "2026-09-20T23:36:40.414304+00:00",
+    "boltz_commit": "b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc",
+    "inputs_manifest_sha256": "b5722240131ee31189a529e8ba106c36015b8f6f3d717329b66079d9211a4691",
+    "command": [
+      "boltz",
+      "predict",
+      "gpu/full_inputs_12247627",
+      "--out_dir",
+      "gpu/full_run_12247627",
+      "--cache",
+      "gpu/cache",
+      "--model",
+      "boltz2",
+      "--accelerator",
+      "gpu",
+      "--devices",
+      "1",
+      "--seed",
+      "17",
+      "--recycling_steps",
+      "3",
+      "--sampling_steps",
+      "200",
+      "--diffusion_samples",
+      "1",
+      "--write_embeddings",
+      "--no_kernels",
+      "--use_msa_server"
+    ],
+    "returncode": 0,
+    "missing_or_ambiguous_exports": [],
+    "finished_utc": "2026-09-20T23:44:23.507118+00:00",
+    "checkpoint_sha256": "090e82ac8c92f5e943fa1b39e7410a44027bea7243c0bbb3caa67a77fc1428e1"
+  },
+  "source_files": [
+    {
+      "target_id": "AURKA",
+      "sha256": "5eef9bf2dcbdfe494c916426c98e1bddc533a8ed07b19d13fe31f75d5beab7d9"
+    },
+    {
+      "target_id": "AURKB",
+      "sha256": "32ec8c5dbf46ad7073d1a301cf4c10cc3b4a55e71a28057c6cdf30b875fc07b0"
+    },
+    {
+      "target_id": "AURKC",
+      "sha256": "a2caf63f600842d540af629ea44f23a4a88feb4334a9fc944c497426403e98c6"
+    },
+    {
+      "target_id": "CDK2",
+      "sha256": "89a36e5dd152a866901b23366ca7487f189e359d9d3d9d3b2c9d97b6e70ab119"
+    },
+    {
+      "target_id": "CDK7",
+      "sha256": "ac2ea86ee0b0161b74d8dfb098dd4e707bb38679a2d4e274c70f224d20bded22"
+    },
+    {
+      "target_id": "GSK3B",
+      "sha256": "19048e1fbd1a25707d030a3c2cbbeb0ce77a6454c88307314d8d565558b8b9c2"
+    },
+    {
+      "target_id": "SRC",
+      "sha256": "16991bdf330042659453e259e9ba4eb2d5517ac5ca9a91f73b1b39b3cefe3b34"
+    },
+    {
+      "target_id": "LCK",
+      "sha256": "1fbc70089335508854845c84aa84355a7f6525d9c6269af2bd87493b7f734228"
+    },
+    {
+      "target_id": "HCK",
+      "sha256": "292e0036a5049313e401dab710a0aea9c3791e98258a14500efa4afc418009c3"
+    },
+    {
+      "target_id": "FRK",
+      "sha256": "636d672390a0bf58a113f72612759806dd7c0a230c6fc53b0fae2548b9ad1522"
+    },
+    {
+      "target_id": "CSNK1D",
+      "sha256": "b68ca7900e849631b6cedf12e31f246845367d62b2304f8e0666f78a612f2dc6"
+    },
+    {
+      "target_id": "CSNK1E",
+      "sha256": "2aa6cfb8d7eb45a5a3fedab42a78e8883ca35304fead916410fe19aee7556232"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+name: CPU tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python: ['3.10', '3.12']
+    env:
+      OMP_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install .
+      - run: python -m unittest discover -s tests -v
+      - run: kinase-encoder evaluate --output /tmp/kinase-baseline
+      - uses: actions/upload-artifact@v4
+        with:
+          name: baseline-python-${{ matrix.python }}
+          path: /tmp/kinase-baseline

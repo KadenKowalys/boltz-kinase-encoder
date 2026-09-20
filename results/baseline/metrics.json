@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "pairs": 173,
+  "targets": 12,
+  "compounds": 34,
+  "scaffolds": 33,
+  "alpha": 1,
+  "seed": 17,
+  "scores": {
+    "scaffold": {
+      "mean": {
+        "rmse": 0.9543024013881592,
+        "mae": 0.7459524379860194,
+        "r2": -0.054463189445779214,
+        "spearman": -0.24369334178524132
+      },
+      "target_mean": {
+        "rmse": 1.0002964069338498,
+        "mae": 0.769340808255226,
+        "r2": -0.1585554051397664,
+        "spearman": -0.05893492085447429
+      },
+      "ligand_only": {
+        "rmse": 0.9277872578171118,
+        "mae": 0.7221240823370872,
+        "r2": 0.0033189584658788185,
+        "spearman": 0.052780239723321964
+      },
+      "ligand_target_id": {
+        "rmse": 0.9397016248919112,
+        "mae": 0.7268578611016477,
+        "r2": -0.02244356447500695,
+        "spearman": 0.03096112321796493
+      },
+      "ligand_sequence": {
+        "rmse": 0.9395140139681719,
+        "mae": 0.7249051280750911,
+        "r2": -0.022035344614608432,
+        "spearman": 0.022211946038492848
+      }
+    },
+    "target": {
+      "mean": {
+        "rmse": 0.9340816482961243,
+        "mae": 0.7359198246973434,
+        "r2": -0.01025048920377003,
+        "spearman": -0.27516478075682854
+      },
+      "target_mean": {
+        "rmse": 0.9340816482961243,
+        "mae": 0.7359198246973434,
+        "r2": -0.01025048920377003,
+        "spearman": -0.27516478075682854
+      },
+      "ligand_only": {
+        "rmse": 0.8344128495311398,
+        "mae": 0.6717193509275718,
+        "r2": 0.19383979342476132,
+        "spearman": 0.2668052830543848
+      },
+      "ligand_target_id": {
+        "rmse": 0.8328191552465917,
+        "mae": 0.6735533921601272,
+        "r2": 0.19691631839105805,
+        "spearman": 0.26797353985620065
+      },
+      "ligand_sequence": {
+        "rmse": 0.7767177255406961,
+        "mae": 0.6281990610963457,
+        "r2": 0.3014687774179322,
+        "spearman": 0.42999383708819167
+      }
+    }
+  },
+  "pairs_sha256": "6bf4747efbdafd663b20edd61681bf62e083be3d23dd71413c6cfabe0600f7e9",
+  "targets_sha256": "67b318fbe5539e2bde99f614e073c202332775f995be00abf9f091161564ae97",
+  "boltz_status": "pending_gpu_extraction_not_evaluated",
+  "embedding_sha256": null,
+  "protocols": {
+    "scaffold": "Five-fold grouped by nonchiral Bemis-Murcko scaffold; target overlap allowed.",
+    "target": "Leave one target out; compound overlap allowed. Not a double-cold split."
+  },
+  "limitations": [
+    "Small selected panel; pooled out-of-fold scores are descriptive, not a deployment validation.",
+    "Boltz pretraining overlap is not audited; these splits protect downstream labels only.",
+    "No hyperparameter search; alpha=1 is the prespecified default."
+  ]
+}

@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "boltz-kinase-encoder"
+version = "0.1.0"
+description = "A frozen Boltz-2 protein encoder pilot for kinase-affinity prediction with NIH PubChem data"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+dependencies = ["numpy>=1.26,<3", "scipy>=1.11", "scikit-learn==1.6.1", "rdkit>=2024.3.2", "matplotlib>=3.7", "PyYAML>=6"]
+
+[project.optional-dependencies]
+audit = ["gemmi==0.6.5"]
+
+[project.scripts]
+kinase-encoder = "boltz_kinase_encoder.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

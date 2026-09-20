@@ -1,0 +1,72 @@
+{
+  "PC_AssayContainer": [
+    {
+      "assay": {
+        "descr": {
+          "aid": {
+            "id": 1433,
+            "version": 2
+          },
+          "aid_source": {
+            "db": {
+              "name": "Ambit Biosciences",
+              "source_id": {
+                "str": "Kinase inhibitor selectivity profiling"
+              }
+            }
+          },
+          "name": "Kinase Inhibitor Selectivity Profiling Assay",
+          "description": [
+            "Kinase inhibitors are a new class of therapeutics with a propensity to inhibit multiple targets. The biological consequences of multi-kinase activity are poorly defined, and an important step toward understanding the relationship between selectivity, efficacy and safety is the exploration of how inhibitors interact with the human kinome. We present interaction maps for 38 kinase inhibitors across a panel of 317 kinases representing >50% of the predicted human protein kinome. The data constitute the most comprehensive study of kinase inhibitor selectivity to date and reveal a wide diversity of interaction patterns."
+          ],
+          "protocol": [
+            ""
+          ],
+          "comment": [
+            "Compounds with Kd equal or less than 3 uM are considered active."
+          ],
+          "xref": [
+            {
+              "xref": {
+                "asurl": "http://www.ambitbio.com/technology/publications/NB2008.htm"
+              }
+            },
+            {
+              "xref": {
+                "pmid": 18183025
+              }
+            }
+          ],
+          "results": [
+            {
+              "tid": 1,
+              "name": "Kd",
+              "type": 1,
+              "unit": 5,
+              "ac": true
+            },
+            {
+              "tid": 2,
+              "name": "Panel ID",
+              "type": 2
+            },
+            {
+              "tid": 3,
+              "name": "Panel Name",
+              "type": 4
+            },
+            {
+              "tid": 4,
+              "name": "Panel Target",
+              "type": 4,
+              "annot": 21
+            }
+          ],
+          "revision": 1,
+          "activity_outcome_method": 0,
+          "project_category": 255
+        }
+      }
+    }
+  ]
+}

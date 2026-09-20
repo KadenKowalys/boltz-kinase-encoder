@@ -1,0 +1,54 @@
+{
+  "audit": {
+    "source_measurements": 2996,
+    "outside_selected_exact_panels": 2823,
+    "retained_source_measurements": 173
+  },
+  "pairs": 173,
+  "targets": 12,
+  "unique_compounds": 34,
+  "scaffolds": 33,
+  "pairs_by_target": {
+    "AURKA": 11,
+    "AURKB": 13,
+    "AURKC": 18,
+    "CDK2": 6,
+    "CDK7": 12,
+    "CSNK1D": 11,
+    "CSNK1E": 14,
+    "FRK": 22,
+    "GSK3B": 9,
+    "HCK": 15,
+    "LCK": 24,
+    "SRC": 18
+  },
+  "config_sha256": "78e22b7bb849ed1b86a9dbbc532f70e7d038e2c254e84f0bab700e575873ac05",
+  "source_provenance": {
+    "retrieved_utc": "2026-09-20T18:21:35.260809+00:00",
+    "files": {
+      "assay_1433.csv": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1433/CSV",
+        "sha256": "607def007caa5c748afdb181ed914ac65fae87c128c59447eb9febc0a4546a2f",
+        "bytes": 446757
+      },
+      "assay_1433.json": {
+        "url": "https://pubchem.ncbi.nlm.nih.gov/rest/pug/assay/aid/1433/description/JSON",
+        "sha256": "bde289fa25b4b7732eee85731742ff727bb65759f6933b0ca4def883daf938e5",
+        "bytes": 2259
+      },
+      "sequences.fasta": {
+        "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=protein&id=NP_003591.2,AAH00442.3,AAC77369.1,NP_001789.2,NP_001790.1,NP_002084.2,NP_005408.1,NP_005347.3,NP_002101.2,NP_002022.1,NP_620693.1,NP_001885.1&rettype=fasta&retmode=text",
+        "sha256": "75ef793ff19e588d14ec80e13f85e220055f25b5de50d8a67408a9f15493f840",
+        "bytes": 5824
+      }
+    }
+  },
+  "pairs_sha256": "6bf4747efbdafd663b20edd61681bf62e083be3d23dd71413c6cfabe0600f7e9",
+  "targets_sha256": "67b318fbe5539e2bde99f614e073c202332775f995be00abf9f091161564ae97",
+  "label": "pKd = 6 - log10(Kd in micromolar); median pKd for repeated target/parent pairs",
+  "limitations": [
+    "Only reported numeric measurements are retained; unmeasured pairs are not negative examples.",
+    "This is a sparse, selected kinase-inhibitor panel, not a representative discovery screen.",
+    "Versioned NCBI reference proteins are not verified experimental assay constructs."
+  ]
+}

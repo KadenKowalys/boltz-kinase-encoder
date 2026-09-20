@@ -1,0 +1,65 @@
+{
+  "aid": 1433,
+  "targets": [
+    {
+      "id": "AURKA",
+      "accession": "NP_003591.2",
+      "panel_name": "AURKA Inhibition Activity"
+    },
+    {
+      "id": "AURKB",
+      "accession": "AAH00442.3",
+      "panel_name": "AURKB Inhibition Activity"
+    },
+    {
+      "id": "AURKC",
+      "accession": "AAC77369.1",
+      "panel_name": "AURKC Inhibition Activity"
+    },
+    {
+      "id": "CDK2",
+      "accession": "NP_001789.2",
+      "panel_name": "CDK2 Inhibition Activity"
+    },
+    {
+      "id": "CDK7",
+      "accession": "NP_001790.1",
+      "panel_name": "CDK7 Inhibition Activity"
+    },
+    {
+      "id": "GSK3B",
+      "accession": "NP_002084.2",
+      "panel_name": "GSK3B Inhibition Activity"
+    },
+    {
+      "id": "SRC",
+      "accession": "NP_005408.1",
+      "panel_name": "SRC Inhibition Activity"
+    },
+    {
+      "id": "LCK",
+      "accession": "NP_005347.3",
+      "panel_name": "LCK Inhibition Activity"
+    },
+    {
+      "id": "HCK",
+      "accession": "NP_002101.2",
+      "panel_name": "HCK Inhibition Activity"
+    },
+    {
+      "id": "FRK",
+      "accession": "NP_002022.1",
+      "panel_name": "FRK Inhibition Activity"
+    },
+    {
+      "id": "CSNK1D",
+      "accession": "NP_620693.1",
+      "panel_name": "CSNK1D Inhibition Activity"
+    },
+    {
+      "id": "CSNK1E",
+      "accession": "NP_001885.1",
+      "panel_name": "CSNK1E Inhibition Activity"
+    }
+  ]
+}

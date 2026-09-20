@@ -1,0 +1,4 @@
+# Separate Linux/CUDA environment; do not install into the Mac development env.
+# This exact upstream revision includes --write_embeddings (s and z arrays).
+boltz @ git+https://github.com/jwohlwend/boltz.git@b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc
+-e .

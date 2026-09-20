@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "boltz_commit": "b1ebfc46ecf57f5414e0d1a6f9027bbb122c53bc",
+  "msa_mode": "server",
+  "targets": [
+    {
+      "target_id": "AURKA",
+      "accession": "NP_003591.2",
+      "length": 403,
+      "sequence_sha256": "7192d652f813d4d86f957b1edb7729c8adb429515fb591d7f4c6937a9d54dec2",
+      "input_file": "AURKA.yaml",
+      "input_sha256": "4c08aa150ef2e27f160a8c4247092e3449c7b41e9f5a5dbed2bf0e354b40da59"
+    },
+    {
+      "target_id": "AURKB",
+      "accession": "AAH00442.3",
+      "length": 344,
+      "sequence_sha256": "22b44aaeeb81e18e93d28c69a4d8a2860aba13200e1ea814d4d226d40fe12f99",
+      "input_file": "AURKB.yaml",
+      "input_sha256": "ee78cfd4b175660962f155a3095116e09bfc0772ad2ccf525f36fe103c875c21"
+    },
+    {
+      "target_id": "AURKC",
+      "accession": "AAC77369.1",
+      "length": 275,
+      "sequence_sha256": "49aa7493064eb3c91123b98d1d9071e9a616931248d8ffeac5086b4e0a5aacc3",
+      "input_file": "AURKC.yaml",
+      "input_sha256": "b4613efadced36baae9c439b1c74fd9f89439653855940500dc2752311b8d125"
+    },
+    {
+      "target_id": "CDK2",
+      "accession": "NP_001789.2",
+      "length": 298,
+      "sequence_sha256": "fe22d91e18cd544a85d7c768cd864172200252df906b774d890dc103224f7c8d",
+      "input_file": "CDK2.yaml",
+      "input_sha256": "27bea317a0acda98ec7156c402ed5ce69a1100618c0999f990e71d79bb82a097"
+    },
+    {
+      "target_id": "CDK7",
+      "accession": "NP_001790.1",
+      "length": 346,
+      "sequence_sha256": "2a5c3173293b02025db072c77174be6a288eb4a6f97c0af6a9f7c8fe8ab5d3a2",
+      "input_file": "CDK7.yaml",
+      "input_sha256": "d5035f30630f31e953205dc0def0fb6205d7f6629293a0d0339da5acabcea137"
+    },
+    {
+      "target_id": "GSK3B",
+      "accession": "NP_002084.2",
+      "length": 433,
+      "sequence_sha256": "cfeceba14344bf809ca7473259b24646c9e810013545db6b77071d6ca6aabf3f",
+      "input_file": "GSK3B.yaml",
+      "input_sha256": "7fa638413cb20810d896360b4d28915c80a575ff0c39736e92d8471e86b5ceaf"
+    },
+    {
+      "target_id": "SRC",
+      "accession": "NP_005408.1",
+      "length": 536,
+      "sequence_sha256": "bfb0c691493b552212f52a3e68ec9d6c2e67dc37339f19b6e71c22fd202292f8",
+      "input_file": "SRC.yaml",
+      "input_sha256": "3320da57f8c066ed85cb2326289baff85cf31e9ba4193d2e55ddd600d7bc2e04"
+    },
+    {
+      "target_id": "LCK",
+      "accession": "NP_005347.3",
+      "length": 509,
+      "sequence_sha256": "01b6c32eee0d173b181b1bb3926e78b1014c3c8a350003ef462b97fcad650063",
+      "input_file": "LCK.yaml",
+      "input_sha256": "51cd4c947cb1fa9ab30e2411ec456bac87788144c509acefc32b56a4d7212ad0"
+    },
+    {
+      "target_id": "HCK",
+      "accession": "NP_002101.2",
+      "length": 526,
+      "sequence_sha256": "bd65d9ee0f06d8b5a3bd439e675adb40ddfe5d83aa100e62fd04f3da7a9520e3",
+      "input_file": "HCK.yaml",
+      "input_sha256": "de4142346129cb83d27ef3fae520c840afe5155617bcb389fe2cae5597cab10f"
+    },
+    {
+      "target_id": "FRK",
+      "accession": "NP_002022.1",
+      "length": 505,
+      "sequence_sha256": "266e943682a0ddcb4cd4532fc9a4d6b6bf941ce7d8c2bd9f5011cf7fd02d13bd",
+      "input_file": "FRK.yaml",
+      "input_sha256": "cb1ee20ef5ded13aac7bbc667fe81bc4be743c9157c0095590a83de69d810efe"
+    },
+    {
+      "target_id": "CSNK1D",
+      "accession": "NP_620693.1",
+      "length": 409,
+      "sequence_sha256": "a0ec3d71414150896dd68cc1c351fb2b4a30eceafa11ba7de258c81236139403",
+      "input_file": "CSNK1D.yaml",
+      "input_sha256": "6c2e535880aff016b277dbd5370faa2e8dcb6daa0e06986edadb38d7821eddc2"
+    },
+    {
+      "target_id": "CSNK1E",
+      "accession": "NP_001885.1",
+      "length": 416,
+      "sequence_sha256": "2546fc8eb85f6ddb0c86a8118b17e473bd385a8c6e3d14c60d4193d21d098fc1",
+      "input_file": "CSNK1E.yaml",
+      "input_sha256": "0da55a59249548f0f5f1c5c031959217c8be3e5f87deb5a2c4324c11bc99be4b"
+    }
+  ]
+}
